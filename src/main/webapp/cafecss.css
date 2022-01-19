@@ -1,0 +1,55 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Pushster&display=swap');
+table.bound { /*bound라는 class는 table 안에서만 쓸 수 있다.*/
+    border-collapse: collapse;
+    border:1px solid brown;
+    height:400px;
+    width:320px;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    font-family: 'Black Han Sans', sans-serif;
+    background-image :url('https://cdn.pixabay.com/photo/2020/09/01/06/00/sky-5534319_960_720.jpg');
+   margin-left: auto;
+   margin-right: auto;
+}
+td.bound { /*이 bound는 td 안에서는 아래의 의미가 된다.*/
+    border:1px solid blue;
+}
+#selMenu,#selOrder,#selSales,#selMenu1,#salesMenu,#salesMenu1{
+    width:240px;
+    font-family: 'Black Han Sans', sans-serif;
+    background-size :cover;
+    background-repeat: no-repeat;
+    
+}
+body{
+    /* background: linear-gradient( to bottom, #59C173, #a17fe0 ,#5D26C1) repeat; */
+    background-image :url('https://cdn.pixabay.com/photo/2018/03/04/09/51/space-3197611_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:180px;
+    
+}
+#menuname,#count,#price,#total,#mobile,#_menuname,#_price{
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    font-family: 'Black Han Sans', sans-serif;
+}
+#dlgMenu,#dlgsale{
+    font-family: 'Black Han Sans', sans-serif;
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    background-image :url('https://cdn.pixabay.com/photo/2020/09/01/06/00/sky-5534319_960_720.jpg')
+}
+#btnReset,#btnAdd,#btnMenu,#btnCancel,#btnDone,#btnsale{
+    font-family: 'Black Han Sans', sans-serif;
+    background: linear-gradient( to bottom, #bdc3c7, #2c3e50 );
+}
+#h1{
+    font-family: 'Black Han Sans', sans-serif;
+}
+#hr,#hr1{
+    border:5px solid burlywood;
+}
+#h1{
+	font-family: 'IBM Plex Mono', monospace;
+}
